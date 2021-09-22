@@ -1,34 +1,41 @@
 # dsc-api
-API for DiscordCup discord bot list
-  <h1>HOW TO USE</h1>
-    <p>Use dscapi <b>object</b> to see all functions.</p>
-    <p>Available methods:</p>
-    <br>
-    <code>getBot(id, type)</code>
-    <br>
-    <code>getUser()</code><span> - coming soon</span>
-    <br>
-    <code>getUser(id, option, newData)</code><span> - doesn't work because DSC doesn't have endpoints for editing data</span>
-    <hr>
-    <h1>Getting bot info</h1>
-    <p>Example:</p>
-    <code>
-        dscapi.getBot('832526738437046333', 'botName')
-    </code>
-    <br>
-    <p>Output:</p>
-    <code>Justify</code>
-    <br>
-    <br>
-    <p>If you don't provide <code>type</code> argument, you will see this:</p>
-    <img src="/assets/types.png">
-<p>and all endpoint data</p>
+Api for DiscordCup discord bot list
+
+## How to use
+Use dscapi object to see all functions.
+
+## Available methods:
+
+```js
+getBot(id, type)
+getUser() // Coming soon!
+getUser(id, option, newData) // Dooesn't work because DSC doesn't have endpoints for editing data
+```
+
+## Getting bot info
+Example:
+
+```js
+dscapi.getBot('832526738437046333', 'botName')
+```
+Output:
+```Justify```
+
+If you don't provide **type** argument, you will see this:
+
+<img src="/assets/types.png">
+
+and all endpoint data
+
 <img src="/assets/all.png">
-<br>
-<h1>Dependencies</h1>
-<p>node-fetch 2.6.4 (<code>npm i node-fetch@2 or @2.6.4</code>)</p>
-<p>node-fetch 2.6.4 is recommended, because 3.0 is TS-like and require additional actions (TypeScript is bloat).</p>
-<h1>License</h1>
-<p>MIT</p>
-<h1>Author</h1>
-<p>M4r5ha11 (https://m4r5ha11.com or https://github.com/M4r5ha11)</p>
+
+## Dependencies
+**node-fetch 2.6.4** (<code>npm i node-fetch@2 or @2.6.4</code>)
+
+**node-fetch 2.6.4** is recommended, because 3.0 is TS-like and require additional actions (TypeScript is bloat).</p>
+
+## License
+**MIT**
+
+### Author
+M4r5ha11: [Website](https://m4r5ha11.com) or [GitHub](https://github.com/M4r5ha11)
