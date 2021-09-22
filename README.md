@@ -12,12 +12,11 @@ API for DiscordCup discord bot list
     <hr>
     <h1>Getting bot info</h1>
     <p>Example:</p>
-    <br>
     <code>
         dscapi.getBot('832526738437046333', 'botName')
     </code>
-    <p>Output:</p>
     <br>
+    <p>Output:</p>
     <code>Justify</code>
     <br>
     <br>
