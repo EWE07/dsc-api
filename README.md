@@ -6,7 +6,7 @@ API for DiscordCup discord bot list
     <br>
     <code>getBot(id, type)</code>
     <br>
-    <code>getUser()</code><span>- coming soon</span>
+    <code>getUser()</code><span> - coming soon</span>
     <br>
     <code>getUser(id, option, newData)</code><span> - doesn't work because DSC doesn't have endpoints for editing data</span>
     <hr>
