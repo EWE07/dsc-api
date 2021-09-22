@@ -1,6 +1,6 @@
 # dsc-api
 API for DiscordCup discord bot list
-    <h1>HOW TO USE</h1>
+  <h1>HOW TO USE</h1>
     <p>Use dscapi <b>object</b> to see all functions.</p>
     <p>Available methods:</p>
     <br>
@@ -28,3 +28,7 @@ API for DiscordCup discord bot list
 <h1>Dependencies</h1>
 <p>node-fetch 2.6.4 (<code>npm i node-fetch@2 or @2.6.4</code>)</p>
 <p>node-fetch 2.6.4 is recommended, because 3.0 is TS-like and require additional actions (TypeScript is bloat).</p>
+<h1>License</h1>
+<p>MIT</p>
+<h1>Author</h1>
+<p>M4r5ha11 (https://m4r5ha11.com or https://github.com/M4r5ha11)</p>
