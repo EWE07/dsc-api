@@ -132,6 +132,3 @@ fetch(this.baseURL + this.botsURL + id + '/edit', {
     }
   }
 };
-
-
-dscapi.getBot('832526738437046333')
